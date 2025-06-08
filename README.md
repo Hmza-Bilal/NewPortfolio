@@ -1,30 +1,120 @@
-# Java fintech portfolio
+# Java Fintech Portfolio
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A modern, responsive portfolio website showcasing Java development experience in the fintech industry.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/bcsf19m531-3435s-projects/v0-java-fintech-portfolio)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/81S4vAc4qdY)
+## 🚀 Features
 
-## Overview
+- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
+- **Dark/Light Mode**: Toggle between themes with smooth transitions
+- **Modern UI**: Built with Next.js, Tailwind CSS, and shadcn/ui components
+- **Gradient Headings**: Beautiful gradient text effects for section headings
+- **Skill Bars**: Visual representation of technical skills with progress bars
+- **Professional Sections**: About, Skills, Experience, Projects, Education, and Contact
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## 🛠️ Technologies Used
 
-## Deployment
+- **Frontend**: Next.js 14, React 18, TypeScript
+- **Styling**: Tailwind CSS, shadcn/ui components
+- **Icons**: Lucide React
+- **Theme**: next-themes for dark/light mode
+- **Deployment**: GitHub Pages
 
-Your project is live at:
+## 📦 Installation
 
-**[https://vercel.com/bcsf19m531-3435s-projects/v0-java-fintech-portfolio](https://vercel.com/bcsf19m531-3435s-projects/v0-java-fintech-portfolio)**
+1. Clone the repository:
+\`\`\`bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+\`\`\`
 
-## Build your app
+2. Install dependencies:
+\`\`\`bash
+npm install
+\`\`\`
 
-Continue building your app on:
+3. Run the development server:
+\`\`\`bash
+npm run dev
+\`\`\`
 
-**[https://v0.dev/chat/projects/81S4vAc4qdY](https://v0.dev/chat/projects/81S4vAc4qdY)**
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## How It Works
+## 🚀 Deployment
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+This portfolio is configured for automatic deployment to GitHub Pages.
+
+### Automatic Deployment (Recommended)
+
+1. Push your changes to the `main` branch
+2. GitHub Actions will automatically build and deploy your site
+3. Your site will be available at `https://your-username.github.io/your-repo-name/`
+
+### Manual Deployment
+
+\`\`\`bash
+npm run deploy
+\`\`\`
+
+## 📝 Configuration
+
+### Repository Name
+
+Update the `basePath` and `assetPrefix` in `next.config.js` with your actual repository name:
+
+\`\`\`javascript
+basePath: process.env.NODE_ENV === 'production' ? '/your-actual-repo-name' : '',
+assetPrefix: process.env.NODE_ENV === 'production' ? '/your-actual-repo-name/' : '',
+\`\`\`
+
+### Personal Information
+
+Update the portfolio content in `portfolio.tsx` with your personal information:
+- Experience details
+- Project descriptions
+- Education information
+- Contact information
+
+## 📱 Responsive Design
+
+The portfolio is fully responsive and optimized for:
+- Desktop (1024px+)
+- Tablet (768px - 1023px)
+- Mobile (320px - 767px)
+
+## 🎨 Customization
+
+### Colors
+The portfolio uses gradient colors for headings. You can customize them in `portfolio.tsx`:
+- Hero: Blue to purple to cyan
+- About: Emerald to blue
+- Skills: Orange to pink
+- Experience: Green to blue
+- Projects: Purple to pink
+- Education: Indigo to purple
+- Contact: Teal to blue
+
+### Theme
+The dark/light mode toggle is implemented using `next-themes`. The default theme is set to dark mode.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## 📞 Contact
+
+- **Email**: your-email@example.com
+- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
+- **GitHub**: [Your GitHub Profile](https://github.com/your-username)
+
+---
+
+Built with ❤️ using Next.js and Tailwind CSS
+\`\`\`
+
+```text file="public/CNAME"
+# Replace with your custom domain if you have one
+# your-domain.com
