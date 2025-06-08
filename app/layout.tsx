@@ -10,8 +10,8 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <title>Java Fintech Portfolio</title>
-        <meta name="description" content="Java Developer Portfolio" />
+        <title>Portfolio Le Hamza</title>
+        <meta name="description" content="Hamza Bilal - Java Developer Portfolio" />
       </head>
       <body className="min-h-screen bg-background font-sans antialiased">
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
@@ -23,5 +23,5 @@ export default function RootLayout({
 }
 
 export const metadata = {
-      generator: 'v0.dev'
-    };
+  generator: "v0.dev",
+}
