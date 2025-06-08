@@ -81,11 +81,11 @@ export default function Portfolio() {
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
               <div className="flex justify-center">
                 <Image
-                  src="/placeholder.svg?height=300&width=300"
-                  alt="Profile"
+                  src="/images/profile.jpg"
+                  alt="Hamza Bilal - Java Developer"
                   width={300}
                   height={300}
-                  className="rounded-full border-4 border-gray-300 dark:border-gray-800 shadow-lg"
+                  className="rounded-full border-4 border-gray-300 dark:border-gray-800 shadow-lg object-cover"
                 />
               </div>
               <div className="space-y-4">
@@ -305,25 +305,33 @@ export default function Portfolio() {
               work together!
             </p>
             <div className="flex justify-center space-x-4">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">
-                <Mail className="mr-2 h-4 w-4" />
-                Email Me
+              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white" asChild>
+                <a href="mailto:hmzu.bilal@gmail.com">
+                  <Mail className="mr-2 h-4 w-4" />
+                  Email Me
+                </a>
               </Button>
               <Button
                 variant="outline"
                 size="lg"
                 className="border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-900 dark:text-white"
+                asChild
               >
-                <Linkedin className="mr-2 h-4 w-4" />
-                LinkedIn
+                <a href="https://www.linkedin.com/in/hamza-007-bilal/" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="mr-2 h-4 w-4" />
+                  LinkedIn
+                </a>
               </Button>
               <Button
                 variant="outline"
                 size="lg"
                 className="border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-900 dark:text-white"
+                asChild
               >
-                <Github className="mr-2 h-4 w-4" />
-                GitHub
+                <a href="https://github.com/Hmza-Bilal" target="_blank" rel="noopener noreferrer">
+                  <Github className="mr-2 h-4 w-4" />
+                  GitHub
+                </a>
               </Button>
             </div>
           </div>
