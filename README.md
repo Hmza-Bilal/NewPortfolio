@@ -23,8 +23,8 @@ A modern, responsive portfolio website showcasing Java development experience in
 
 1. Clone the repository:
 \`\`\`bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Hmza-Bilal/NewPortfolio.git
+cd NewPortfolio
 \`\`\`
 
 2. Install dependencies:
@@ -47,7 +47,7 @@ This portfolio is configured for automatic deployment to GitHub Pages.
 
 1. Push your changes to the `main` branch
 2. GitHub Actions will automatically build and deploy your site
-3. Your site will be available at `https://your-username.github.io/your-repo-name/`
+3. Your site will be available at `https://Hmza-Bilal.github.io/NewPortfolio/`
 
 ### Manual Deployment
 
@@ -62,8 +62,8 @@ npm run deploy
 Update the `basePath` and `assetPrefix` in `next.config.js` with your actual repository name:
 
 \`\`\`javascript
-basePath: process.env.NODE_ENV === 'production' ? '/your-actual-repo-name' : '',
-assetPrefix: process.env.NODE_ENV === 'production' ? '/your-actual-repo-name/' : '',
+basePath: process.env.NODE_ENV === 'production' ? '/NewPortfolio' : '',
+assetPrefix: process.env.NODE_ENV === 'production' ? '/NewPortfolio/' : '',
 \`\`\`
 
 ### Personal Information
@@ -106,15 +106,13 @@ Contributions, issues, and feature requests are welcome!
 
 ## 📞 Contact
 
-- **Email**: your-email@example.com
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
-- **GitHub**: [Your GitHub Profile](https://github.com/your-username)
+- **GitHub**: [Hmza-Bilal](https://github.com/Hmza-Bilal)
 
 ---
 
 Built with ❤️ using Next.js and Tailwind CSS
 \`\`\`
 
-```text file="public/CNAME"
+\`\`\`text file="public/CNAME"
 # Replace with your custom domain if you have one
 # your-domain.com

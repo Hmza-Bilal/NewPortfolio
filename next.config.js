@@ -11,8 +11,8 @@ const nextConfig = {
     unoptimized: true,
   },
   // Replace 'your-repo-name' with your actual repository name
-  basePath: process.env.NODE_ENV === "production" ? "/your-repo-name" : "",
-  assetPrefix: process.env.NODE_ENV === "production" ? "/your-repo-name/" : "",
+  basePath: process.env.NODE_ENV === "production" ? "/NewPortfolio" : "",
+  assetPrefix: process.env.NODE_ENV === "production" ? "/NewPortfolio/" : "",
   trailingSlash: true,
 }
 
